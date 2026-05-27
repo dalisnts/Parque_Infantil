@@ -1,0 +1,29 @@
+NOME: Dalila de Souza Santos
+TEMA: Parque de Diversões
+VERSÃO DA UNITY QUE USEI: 6000.3.13f1
+
+
+1. SOBRE O PROJETO
+
+Esse projeto é um protótipo de ambiente em Realidade Virtual onde criei um Parque de Diversões, desenvolvido na versão 6000.3.13f1 da Unity. A ideia do cenário foi montar um espaço divertido, reconhecível e totalmente imersivo, garantindo que o usuário consiga andar e olhar para os lados livremente. Para dar vida ao parque, misturei a criação de itens primitivos da própria Unity (como cubos) para fazer as bases dos brinquedos e as barraquinhas) com a importação de assets mais detalhados (como o carrossel, o balanço e os bancos de madeira), deixando o cenário completo
+
+
+2. PARTE TÉCNICA E CONFIGURAÇÕES
+
+-O projeto foi desenvolvido utilizando a versão recomendada da Unity 6 (6000.3.13f1).
+-Houve a instalação do pacote Meta XR SDK, garantindo o funcionamento do ambiente em Realidade Virtual.
+-A plataforma foi alterada para Android nas Build Settings, deixando as configurações prontas e corretas para o Meta Quest.
+-Foi realizada a configuração do XR Plugin Management para gerenciar os plugins de óculos virtuais.
+-O elemento OVRPlayerController foi adicionado à cena para controlar a movimentação do personagem e aplicar a física de andar pelo mapa.
+
+
+3. O CENÁRIO E A ORGANIZAÇÃO
+
+Montei o parque de diversões usando um chão (Plane) e o céu padrão. 
+O cenário tem mais de 5 objetos para dar vida ao parque, como carrossel, 
+balanço, torre do elevador e bancos para sentar.
+
+
+4. O QUE APRENDI NESSE TRABALHO
+
+O desenvolvimento deste projeto proporcionou um entendimento muito mais claro sobre como configurar pacotes de Realidade Virtual na Unity 6. O processo envolveu realizar toda a configuração técnica inicial, trabalhar com o plano de chão como nossa referência de espaço e ir posicionando cada item de forma organizada na cena. O cenário foi montado tanto criando formas nativas dentro da própria Unity quanto importando modelos prontos. Durante essa importação, foi encontrado o problema de os itens virem completamente rosa, sendo necessário passar todos os materiais pelo processo de conversão do URP (Universal Render Pipeline) para que as texturas corretas aparecessem. O maior desafio enfrentado ao longo do processo foi realizar todas as configurações corretas do ambiente e trazer os elementos para o plano nas coordenadas, rotações e escalas certas, garantindo que tudo ficasse na proporção ideal pa
